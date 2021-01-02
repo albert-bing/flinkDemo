@@ -12,6 +12,7 @@ object Demo01 {
 
 //    import org.apache.flink.api.scala.createTypeInformation
 
+
     val value1: AggregateDataSet[(String, Int)] = value.flatMap(_.split(" ")).map((_, 1)).groupBy(0).sum(1)
 
     value1.print()
