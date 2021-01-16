@@ -1,6 +1,6 @@
 package com.lxb.demo01
 
-import akka.stream.actor.WatermarkRequestStrategy
+//import akka.stream.actor.WatermarkRequestStrategy
 import org.apache.flink.streaming.api.functions.ProcessFunction
 import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor
 import org.apache.flink.streaming.api.scala._

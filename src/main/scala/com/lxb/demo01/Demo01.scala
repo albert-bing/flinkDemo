@@ -7,7 +7,7 @@ object Demo01 {
     // 构造环境
     val env : ExecutionEnvironment = ExecutionEnvironment.getExecutionEnvironment
     // 读取文件
-    val input = "G:\\code_file\\bigData\\flinkDemo\\src\\main\\resources\\hello.txt"
+    val input = "D:\\project\\bigdata\\demoall\\flinkDemo\\src\\main\\resources\\hello.txt"
     val value: DataSet[String] = env.readTextFile(input)
 
 //    import org.apache.flink.api.scala.createTypeInformation

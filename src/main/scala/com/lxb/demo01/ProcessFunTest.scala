@@ -1,6 +1,6 @@
 package com.lxb.demo01
 
-import akka.stream.actor.WatermarkRequestStrategy
+//import akka.stream.actor.WatermarkRequestStrategy
 import org.apache.flink.api.common.state.{ValueState, ValueStateDescriptor}
 import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.KeyedProcessFunction
